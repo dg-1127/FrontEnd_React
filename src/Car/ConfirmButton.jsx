@@ -2,9 +2,6 @@ const ConfirmButton = () => {
   return (
     <button
       style={{
-        display: "flex",
-        justifyContent: "center",
-        alignItems: "center",
         backgroundColor: "#05141f",
         color: "white",
         padding: "15px 50px",

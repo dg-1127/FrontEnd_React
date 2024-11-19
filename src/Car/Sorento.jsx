@@ -17,23 +17,23 @@ const Sorento = () => {
       }}
     >
       <div style={{ display: "flex", justifyContent: "space-between" }}>
-        <span>이름</span>
+        <span style={{ color: "#697279" }}>이름</span>
         <span>{car.name}</span>
       </div>
       <div style={{ display: "flex", justifyContent: "space-between" }}>
-        <span>트림</span>
+        <span style={{ color: "#697279" }}>트림</span>
         <span>{car.trim}</span>
       </div>
       <div style={{ display: "flex", justifyContent: "space-between" }}>
-        <span>차량번호</span>
+        <span style={{ color: "#697279" }}>차량번호</span>
         <span>{car.carNum}</span>
       </div>
       <div style={{ display: "flex", justifyContent: "space-between" }}>
-        <span>차량등록일</span>
+        <span style={{ color: "#697279" }}>차량등록일</span>
         <span>{car.carRegistrationDate}</span>
       </div>
       <div style={{ display: "flex", justifyContent: "space-between" }}>
-        <span>주행거리</span>
+        <span style={{ color: "#697279" }}>주행거리</span>
         <span>{car.mileage}</span>
       </div>
     </section>
