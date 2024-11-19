@@ -1,6 +1,6 @@
-import ConfirmButton from "./ConfirmButton";
-import RejectedButton from "./RejectedButton";
-import Sorento from "./Sorento";
+import ConfirmButton from "./Car/ConfirmButton";
+import RejectedButton from "./Car/RejectedButton";
+import Sorento from "./Car/Sorento";
 
 function App() {
   return (
