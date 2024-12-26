@@ -1,13 +1,13 @@
-import ConfirmButton from "./Car/ConfirmButton";
-import RejectedButton from "./Car/RejectedButton";
-import Sorento from "./Car/Sorento";
+import CarInfo from "./Car/review/CarInfo";
+import ConfirmButton from "./Car/review/ConfirmButton";
+import RejectedButton from "./Car/review/RejectedButton";
 
 function App() {
   return (
     <div className="App">
-      <Sorento></Sorento>
-      <RejectedButton></RejectedButton>
-      <ConfirmButton></ConfirmButton>
+      <CarInfo />
+      <ConfirmButton />
+      <RejectedButton />
     </div>
   );
 }
